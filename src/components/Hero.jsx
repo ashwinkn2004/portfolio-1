@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/ashwin.jpg";
+import profilePic from "../assets/ashwin-bg.png";
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -24,7 +24,7 @@ const Hero = () => {
                             src={profilePic}
                             alt="Ashwin K N portrait"
                             className="h-[320px] w-[320px] sm:h-[400px] sm:w-[400px] lg:h-[500px] lg:w-[500px] 
-                         rounded-3xl object-cover border border-stone-900 shadow-lg"
+                         rounded-3xl object-cover  shadow-lg" //border border-stone-900
                             initial={{ x: 100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 1, delay: 1.2 }}
