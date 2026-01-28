@@ -62,13 +62,13 @@ const Hero = () => {
                             initial="hidden"
                             animate="visible"
                             className="flex gap-4 justify-center lg:justify-start mb-8 text-2xl">
-                            <a href="https://github.com/ashwin-k-n" target="_blank" rel="noopener noreferrer" className="text-stone-300 hover:text-stone-100">
+                            <a href="https://github.com/ashwinkn2004/" target="_blank" rel="noopener noreferrer" className="text-stone-300 hover:text-stone-100">
                                 <FaGithub />
                             </a>
-                            <a href="https://linkedin.com/in/ashwin-k-n" target="_blank" rel="noopener noreferrer" className="text-stone-300 hover:text-stone-100">
+                            <a href="https://www.linkedin.com/in/ashwin-kn/" target="_blank" rel="noopener noreferrer" className="text-stone-300 hover:text-stone-100">
                                 <FaLinkedin />
                             </a>
-                            <a href="https://instagram.com/ashwin_k_n" target="_blank" rel="noopener noreferrer" className="text-stone-300 hover:text-stone-100">
+                            <a href="https://www.instagram.com/ashwin.k.n_/" target="_blank" rel="noopener noreferrer" className="text-stone-300 hover:text-stone-100">
                                 <FaInstagram />
                             </a>
                         </motion.div>
